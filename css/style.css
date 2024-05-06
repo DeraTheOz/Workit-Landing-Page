@@ -45,6 +45,7 @@ body {
 	font-size: inherit;
 	font-weight: 700;
 	color: inherit;
+	display: inline-block;
 	text-decoration: none;
 	background-color: var(--light-green);
 	padding: 1.5rem 3.5rem;
@@ -74,7 +75,7 @@ body {
 /*************** HEADER *****************/
 .header {
 	height: 73rem;
-	padding: 0 15rem;
+	padding: 5rem 15rem;
 	text-align: center;
 	position: relative;
 	background-color: var(--dark-purple);
@@ -84,6 +85,10 @@ body {
 	background-position:
 		top 110px left -135px,
 		bottom 210px right -50px;
+
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 }
 
 .header::before {
@@ -99,23 +104,16 @@ body {
 	clip-path: ellipse(170% 100% at 50% 0);
 }
 
-.container {
-	max-width: 144rem;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-}
-
 .header-nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 5rem 0;
 }
 
 .hero-container {
 	max-width: 63.5rem;
 	align-self: center;
+	margin-top: 8rem;
 }
 
 .hero-header {
@@ -125,7 +123,7 @@ body {
 	letter-spacing: 1.5px;
 	line-height: 1;
 	color: var(--white);
-	margin: 5rem 0;
+	padding-bottom: 5rem;
 }
 
 .hero-header span {

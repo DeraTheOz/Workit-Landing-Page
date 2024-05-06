@@ -1,7 +1,7 @@
 /* 1388px */
 @media screen and (max-width: 86.75em) {
 	.header {
-		padding: 0 9.6rem;
+		padding: 5rem 9.6rem;
 	}
 
 	.features {
@@ -21,7 +21,7 @@
 /* 1280px */
 @media screen and (max-width: 80em) {
 	.header {
-		padding: 0 6.4rem;
+		padding: 5rem 6.4rem;
 	}
 
 	.features {
@@ -58,7 +58,7 @@
 /* 1212px */
 @media screen and (max-width: 75.75em) {
 	.header {
-		padding: 0 4.8rem;
+		padding: 5rem 4.8rem;
 	}
 
 	.features {
@@ -298,12 +298,13 @@
 /* Small Landscape mobiles 600px */
 @media screen and (max-width: 37.5em) {
 	.header {
-		height: 60rem;
-		padding: 0 2rem;
+		height: 58rem;
+		padding: 5rem 2rem;
 	}
 
 	.hero-container {
 		max-width: 38rem;
+		margin-top: 7.5rem;
 	}
 
 	.hero-header {
@@ -362,11 +363,18 @@
 	}
 }
 
+/* 475px- 29.68em */
+@media screen and (max-width: 29.68em) {
+	.header {
+		height: 54rem;
+	}
+}
+
 /* Smaller mobiles 390px- 24.37em */
 @media screen and (max-width: 24.37em) {
 	.header {
-		height: 55rem;
-		padding: 1.2rem;
+		height: 52rem;
+		padding: 5rem 1.2rem;
 	}
 
 	.hero-header {
@@ -380,6 +388,7 @@
 	.founder-text-box {
 		padding-left: 2rem;
 		padding-right: 2rem;
+		margin-top: -5rem;
 	}
 
 	.founder-text {
