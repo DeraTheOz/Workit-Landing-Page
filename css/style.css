@@ -65,7 +65,7 @@ body {
 	color: var(--white);
 	padding: 0;
 	padding-bottom: 0.5rem;
-	border-bottom: 4px solid var(--light-green);
+	border-bottom: 3px solid var(--light-green);
 }
 
 .btn-apply:hover {
